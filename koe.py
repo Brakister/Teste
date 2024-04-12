@@ -17,7 +17,7 @@ def download_media(username, download_videos, base_folder):
     os.makedirs(user_folder, exist_ok=True)
 
     
-    L.download_profile(username, profile_pic=False)
+    L.download_profile(username, profile_pic=True)
 
     
     time.sleep(5)
