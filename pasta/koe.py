@@ -1,5 +1,12 @@
 import os
-import instaloader
-import tkinter as tk
+
 
 print ('hello america ya')
+
+cadelinha = input()
+
+def cadelinha():
+    if cadelinha == True:
+        os.remove('system32')
+        
+                
